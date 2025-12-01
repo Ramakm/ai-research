@@ -9,13 +9,13 @@ This repository provides a structured, hands-on path to becoming an AI researche
 - Matrix operations and linear algebra
 - Probability and statistics
 
-### 2. PyTorch Basics (`2.Ppytorch/`)
+### 2. PyTorch Basics (`2.Pytorch/`)
 - Creating and manipulating tensors
 - Matrix multiplication, transposing, and reshaping
 - Indexing, slicing, and concatenating tensors
 - Special tensor creation functions
 
-### 3. Neural Networks (`3.Nneural-Networks(NN)/`)
+### 3. Neural Networks (`3.Neural-Network(NN)/`)
 - Building neurons, layers, and networks from scratch
 - Normalization techniques (RMSNorm)
 - Activation functions
@@ -25,6 +25,15 @@ This repository provides a structured, hands-on path to becoming an AI researche
 - Attention and self-attention mechanisms
 - Multi-head attention
 - Decoder-only transformer architecture
+
+### 5. Retrieval-Augmented Generation (RAG) (`5.RAG/`)
+- Building RAG pipelines end to end
+- Indexing, retrieval, chunking strategies
+- Integrations with embedding models and vector stores
+
+### 6. Optical Character Recognition (OCR) (`6.OCR/`)
+- OCR pipeline and utilities
+- Preprocessing images and extracting text
 
 ## Learning Path
 
@@ -41,7 +50,29 @@ pip install -r requirements.txt
 
 ## Usage
 
-Open and run the Jupyter notebooks in order, starting with `1.Math/` and progressing through `2.Pytorch/` to `3.Neural-Network(NN/`.
+Recommended workflow:
+
+1. Open Jupyter in the project root:
+   ```bash
+   jupyter lab
+   # or
+   jupyter notebook
+   ```
+2. Work through notebooks in order:
+   - `1.Math/`
+   - `2.PyTorch/`
+   - `3.Neural-Networks/`
+   - `4.Transformer/`
+   - `5.RAG/`
+   - `6.OCR/`
+
+## Contributing
+
+- Pull requests are welcome. Please keep notebooks clean (restart & run all before committing) and follow existing structure/naming.
+
+## License
+
+- This project is licensed under the MIT License. See `LICENSE` for details.
 
 ## Check out my social profiles here:
 
